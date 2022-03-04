@@ -1,0 +1,68 @@
+@media (max-width:830px) {
+  /* stillər eni 830px-ə qədər ekranlar üçün işləyəcək */
+
+  h1 {
+    height: 23px;
+    margin: 5px;
+  }
+
+  .text > p {
+    font-size: 12px;
+    line-height: 150%;
+    color: #000000;
+  }
+
+  .container { 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header{
+  flex-direction: column;
+}
+
+  .text {
+    font-size: 12px;
+    line-height: 150%;
+    color: #000000;
+  }
+
+  .photograf-img {
+    
+    height: 160.29px;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .info {
+    width: 40%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .info > p {
+    margin-top: 5px;
+    font-size: 11px;
+    width: 50%;
+    min-width: 100px;
+  }
+
+
+  .info>h3{
+    font-size: 14px;
+  }
+.footer{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.none-img{
+  display: none;
+}
+
+}

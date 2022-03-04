@@ -1,0 +1,71 @@
+@media screen and (min-width: 829px) and (max-width: 1399px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:75px;
+  }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+  .text > h1 {
+    margin-bottom: 45px;
+  }
+
+  .text > p {
+    padding-bottom: 30px;
+  }
+
+  .text {
+    padding-right: 50px;
+    width: 70%;
+  }
+
+  .img {
+width: 30%;
+    /* padding-left: 30px;*/
+    padding-top: 50px; 
+    display: flex;
+    align-items: center;
+
+  }
+
+  .photograf-img {
+    
+    height: 100%;
+  }
+
+
+.info>p{
+  width: 150px;
+    font-size: 14px;
+    line-height: 130%;
+
+}
+
+
+.footer{
+  margin-top: 30px;
+}
+
+.info>h3{  
+width: 86.88px;
+
+font-weight: bold;
+font-size: 15px;
+line-height: 130%;
+
+}
+
+.info{
+    margin-right: 50px;
+    width: 20%;
+}
+
+
+.none-img{
+    display: none;
+}
+}
